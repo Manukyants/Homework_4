@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
 
         // Çàäàíèå ¹1
-        int i = 10;
+        int i;
+        for (i = 1; i <= 10; i++){
+            System.out.print(i + " ");
+        }
+        System.out.println("\n");
         while(i > 0){
             System.out.print(i + " ");
             i--;
-        }
-        System.out.println("\n");
-        for (i = 1; i < 11; i++){
-            System.out.print(i + " ");
         }
         System.out.println("\n");
 
@@ -21,16 +21,16 @@ public class Main {
 
 
         // Çàäàíèå ¹3
-        int y = 2022;
-        int f = y + 100;
-        int k = y - 200;
-        for (y = 0; y < f; y = y + 79 ){
-            if (y<f && y>k) {
-                System.out.println(y);
+        int year = 2022;
+        int futureYear = year + 100;
+        int lastYear = year - 200;
+        for (year = 0; year < 2122; year = year + 79 ){
+            if (year<futureYear && year>lastYear){
+                System.out.println(year);
             }
         }
 
-     // Óğààààààààààààà
+
             
             
             
